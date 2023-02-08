@@ -1,7 +1,7 @@
-votantes = 20000 
-validos = 18650
-brancos = 250
-nulos = 1100
+votantes = int(input("insira a quantidade total de votantes do município")) 
+validos = int(input("insira a quantidade de votos válidos"))
+brancos = int(input("Quantos votos foram brancos?"))
+nulos = int(input("Quantos votos foram nulos?))
 
 pValidos = (validos*100)/votantes
 pBrancos = (brancos*100)/votantes
