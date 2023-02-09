@@ -9,4 +9,4 @@ custoConsum = round(carro + (precoDistribuidor+precoImposto),2)
 
 
 
-print(paste("O preço a ser pago ao distribuidor é de R$", precoDistribuidor, ", e o imposto a ser pago é de R$", precoImposto, ". Seu custo ao consumidor é de", custoConsum))
+print(paste("O preço a ser pago ao distribuidor é de R$", precoDistribuidor, ", e o imposto a ser pago é de R$", precoImposto, ". Seu custo ao consumidor é de R$", custoConsum))
