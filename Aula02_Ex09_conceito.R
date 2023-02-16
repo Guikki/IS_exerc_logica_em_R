@@ -2,7 +2,8 @@ nota1 <-as.numeric(readline(prompt="digite aqui a nota da prova 01: "))
 nota2 <-as.numeric(readline(prompt="digite aqui a nota da prova 02: "))
 nota3 <-as.numeric(readline(prompt="digite aqui a nota da prova 03: "))
 
-media = (nota1 + nota2+ nota3)/3
+media <- (nota1 + nota2+ nota3)/3
+media <- round(media,2)
 
 
 if (media >= 9 && media <= 10) {
