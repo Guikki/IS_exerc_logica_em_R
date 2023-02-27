@@ -1,6 +1,6 @@
-print(' faça o input do peso ')
+print(' Qual o seu peso? ')
 peso<-scan()
-print(' faça o input da altura ')
+print(' Qual a sua altura? ')
 altura<-scan()
 
 imc<-peso/(altura**2)
