@@ -14,7 +14,7 @@ altura = float(input("Qual a sua altura? "))
 peso = float(input("Qual o seu peso? "))
 IMC = peso / (altura*altura)
 
-print("seu IMC é:", IMC)
+print(f"seu IMC é {IMC:.2f}")
 
 if IMC < 17:
     print("Você está MUITO ABAIXO DO PESO. Procure um especialista!")
